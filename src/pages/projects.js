@@ -4,11 +4,11 @@ import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Link from 'next/link'
 import React from 'react'
-import project1 from "../../public/images/projects/E-Comm.png"
-import project2 from "../../public/images/projects/Portfolio_website.png"
-import project3 from "../../public/images/projects/Responsive website.png"
-import project4 from "../../public/images/projects/weather N.png"
-import project5 from "../../public/images/projects/Weather app.webp"
+import project1 from "../../public/images/projects/Carpool.jpg"
+import project2 from "../../public/images/projects/Shopping_Cart.jpg"
+import project3 from "../../public/images/projects/Java_Encryption.webp"
+import project4 from "../../public/images/projects/Local_Weather.jpg"
+import project5 from "../../public/images/projects/Local_Weather.jpg"
 import Image from 'next/image'
 import {motion} from "framer-motion"
 import TransitionEffect from '@/components/TransitionEffect'
@@ -102,7 +102,7 @@ const projects = () => {
   return (
     <>
         <Head>
-        <title>Gowtham Dongari | Projects Page</title>
+        <title> Anurag Joshi| Projects Page</title>
         <meta name='description' content='any description'/>
         </Head>
         <TransitionEffect />
@@ -115,26 +115,25 @@ const projects = () => {
                 <div className='grid grid-cols-12 gap-24 gap-y-32 mt-16 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                     <div className='col-span-12'>
                         <FeaturedProject
-                        title="E-Commerce Application"    
+                        title="Clark Carpool"    
                         img={project1}
-                        summary="I've built end to end E-comm project, a cutting-edge multi-vendor ecommerce platform utilizing the MERN stack,
-     complemented by the latest technologies such as Tailwind CSS, Socket.io, Redux Toolkit, and more, delivering a seamless online shopping experience."  
-                        link="/"
-                        github="/" 
+                        summary="I've built a Carpoolig App for Clark Students as a project, a platform with technologies 
+                        such as CSS,HTML,Django."
+
+                        link="https://github.com/anujoshikool/Clark-Carpool"
+                        github="https://github.com/anujoshikool/Clark-Carpool" 
                         type="Featured Project"                 
                                         
                         />
-
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                     <Project
-                        title="Portfolio Website"    
+                        title="Shopping Cart"    
                         img={project2}
-                        summary="Crafted a captivating portfolio website with React.js, Next.js, and JavaScript, 
-            serving as a dynamic canvas to flaunt my skills and accomplishments, making a statement in the digital world."  
-                        link="/"
-                        github="https://github.com/gowthamdongari/Portfolio-Software-Developer" 
-                        type="Featured Project"                 
+                        summary="Designed a Shopping Cart using react"  
+                        link="https://github.com/anujoshikool/basic-react-shoppig-cart"
+                        github="https://github.com/anujoshikool/basic-react-shoppig-cart" 
+                        type="Project"                 
                                         
                         />
                     </div>
@@ -150,6 +149,7 @@ const projects = () => {
                                         
                         />
                     </div>
+                    {/*
                     <div className='col-span-12 '>
                     <FeaturedProject
                         title="E-Commerce Application"    
@@ -162,18 +162,19 @@ const projects = () => {
                                         
                         />
                     </div>
+                    */}
                     <div className='col-span-6 sm:col-span-12'>
                     <Project
-                        title="Portfolio Personal Website"    
+                        title="Encryption of Data"    
                         img={project3}
-                        summary="Crafted a captivating portfolio website with React.js, Next.js, and JavaScript,
-                 serving as a dynamic canvas to flaunt my skills and accomplishments, making a statement in the digital world."  
-                        link="/"
-                        github="https://github.com/gowthamdongari/Portfolio-Software-Developer" 
-                        type="Featured Project"                 
+                        summary="Data is Encrypted and decrypted using Public an Private keys asymmetric type encryption for data privacy."  
+                        link="https://github.com/anujoshikool/Java-Encryption"
+                        github="https://github.com/anujoshikool/Java-Encryption" 
+                        type="Project"                 
                                         
                         />
                     </div>
+                    {/*
                     <div className='col-span-6 sm:col-span-12'>
                     <Project
                         title="Weather App"    
@@ -186,6 +187,7 @@ const projects = () => {
                                         
                         />
                     </div>
+                */}
                 </div>
             </Layout>
         </main>

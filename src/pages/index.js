@@ -36,11 +36,11 @@ export default function Home() {
               <p className='flex items-center mt-10 justify-center text-dark font-bold'>
                 Hi <span>&#128075;</span>, I am Anurag Joshi</p>
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
-                I am a Master's student hey and budding Software Developer bringing ideas to life through imaginative web applications.
+                I am a Master's student and budding Software Developer bringing ideas to life through imaginative web applications.
 Dive into my portfolio to discover my latest projects, all reflecting my evolving expertise in software development.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
-                <Link href="/ANURAG_JOSHI_Resume.pdf" target={"_blank"}
+                <Link href="/ANURAG_JOSHI_Res.pdf" target={"_blank"}
                 className='flex items-center bg-black text-light p-2.5 px-6
                 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
                 border-2 border-solid border-transparent hover:border-dark 
