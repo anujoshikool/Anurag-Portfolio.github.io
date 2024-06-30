@@ -40,7 +40,7 @@ export default function Home() {
 Dive into my portfolio to discover my latest projects, all reflecting my evolving expertise in software development.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
-                <Link href="/ANURAG_JOSHI_Res.pdf" target={"_blank"}
+                <Link href="/JAnurag_Res.pdf" target={"_blank"}
                 className='flex items-center bg-black text-light p-2.5 px-6
                 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
                 border-2 border-solid border-transparent hover:border-dark 
